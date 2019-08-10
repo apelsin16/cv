@@ -296,3 +296,13 @@ p {
 .personal-skills__name {
     font-size: 14px;
 }
+
+@media (max-width: 1024px) {
+    .main {
+        display: block;
+    }
+
+    .left-side {
+        padding-top: 20px;
+    }
+}
