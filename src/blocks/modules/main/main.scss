@@ -90,6 +90,10 @@ p {
     }
 }
 
+.profile__text {
+    padding: 1.5em;
+}
+
 .prof-skills__title {
     &::before {
         background-image: url(../img/prof-skills.webp);
@@ -304,5 +308,12 @@ p {
 
     .left-side {
         padding-top: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .section__list {
+        flex-direction: column;
     }
 }
