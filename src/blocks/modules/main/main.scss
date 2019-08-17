@@ -112,6 +112,12 @@ p {
     }
 }
 
+.language-skill__title {
+    &::before {
+        background-image: url(../img/lang.webp);
+    }
+}
+
 .personal-skills__title {
     &::before {
         background-image: url(../img/personal-skills.webp);
@@ -127,6 +133,12 @@ p {
 .proficiency__title {
     &::before {
         background-image: url(../img/proficiency.webp);
+    }
+}
+
+.project__title {
+    &::before {
+        background-image: url(../img/projects.webp);
     }
 }
 
@@ -299,6 +311,15 @@ p {
 
 .personal-skills__name {
     font-size: 14px;
+}
+
+.language-skill__list {
+    display: block;
+    margin-left: 50px;
+}
+
+.language-skill__text {
+    text-transform: uppercase;
 }
 
 @media (max-width: 1024px) {
